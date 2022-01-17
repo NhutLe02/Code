@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./img_alta/Info.css";
+import "./img_alta/thongtin.css";
 import logo_alta from "./img_alta/logo_alta.png";
 import logo_dashboard from "./img_alta/logo_dashboard.svg";
 import logo_device from "./img_alta/logo_device.svg";
@@ -11,7 +11,7 @@ import logo_setting from "./img_alta/logo_setting.svg";
 import { calculateNewValue } from '@testing-library/user-event/dist/utils';
 import img_user_account from "./img_alta/img_user_account.png"
 
-class Info extends Component {
+class thongtin extends Component {
     render() {
         return (
             <div className='total-container'>
@@ -120,4 +120,4 @@ class Info extends Component {
     }
 }
 
-export default Info;
+export default thongtin;
