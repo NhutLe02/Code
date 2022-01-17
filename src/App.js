@@ -6,7 +6,7 @@ import './compoment/login_user/img_alta/dangnhap.css'
 import bg_gruop from "./compoment/login_user/img_alta/bg_gruop.png";
 import logo_alta from "./compoment/login_user/img_alta/logo_alta.png";
 import "./compoment/login_user/img_alta/login_user.css"
-import Info from './compoment/login_user/Info';
+import thongtin from './compoment/login_user/Info';
 
 
 function App() {
@@ -52,7 +52,7 @@ function App() {
                         </div>
                     </div>
                 </div>
-                <Info/>
+                <thongtin/>
     </div>
   );
 }
