@@ -1,0 +1,107 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+.left-container{
+    float: left;
+    background-color: #e9dbdb;
+    width: 40%;
+    height: 100vh;
+}
+.logo-login{
+    margin:20% 2% 10% 10%;
+}
+.login-form{
+    margin: 10% 2% 0 25%;
+}
+.login-form .login-username-input{
+    width: 280px;
+    height: 70px;
+}
+.login-form .login-username-input .input-username{
+    border-radius: 8px;
+    margin-top: 5px;
+    border: solid rgb(179, 9, 9) 1px;
+    padding: 10px 100px 10px 10px;
+}
+
+.login-form .login-password-input .input-password{
+    border-radius: 8px;
+    margin-top: 5px;
+    border: solid rgb(179, 9, 9) 1px;
+    padding: 10px 100px 10px 10px;
+}
+.login-form .login-password-input .eye-icon{
+    float: right;
+    margin-right: 200px;
+    margin-top: 200px;
+    position: relative;
+    color: #fdfdff;
+}
+.login-form .login-button .login-button-signin{
+    background-color: #FF9138;
+    border-radius: 100px;
+    padding: 10px 50px 10px 50px;
+    border: 20px;
+    font-style: bold;
+    color: red;
+    font-size: 16px;
+    line-height: 10px;
+    line-height:120%;
+    vertical-align: top;
+    text-align: center;
+    margin: left 1px;;
+}
+.login-password-title{
+    margin-left: -77%;
+}
+.login-username-title{
+    margin-left: -70%;
+}
+.login-form .login-forgot-password {
+    font-size: 20px;
+    line-height: 200%;
+    line-height: 100%;
+    vertical-align: left;
+    color: #E73F3F;
+}
+.login-button-signin{
+    margin-top:-80%;
+}
+.forgot-password-title{
+    margin-top: 10%;
+}
+.right-container{
+    float: right;
+    width: 100%;
+    height: 100vh;
+    background-color: #ece2ea;
+}
+
+.right-content{
+    margin: 100px 400px 300px 200px;
+    
+}
+.right-title-background p{
+    margin-left: 30%;
+    top: 45%;
+    position: absolute;
+}
+.right-top-title{
+    font-size: 37px;
+    line-height: 10px;
+    line-height: 0px;
+    vertical-align: text-bottom;
+    fill: solid ;
+    color: #ff7506;
+    
+}
+.right-bottom-title{
+    font-style: black;
+    font-size: 34px;
+    line-height: 10px;
+    line-height: 100px;
+    vertical-align: top;
+    fill: solid;
+    color: #ff7506;
+}
