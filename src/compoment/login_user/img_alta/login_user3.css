@@ -5,39 +5,40 @@
 .left-container3{
     float: left;
     background-color: #e9dbdb;
-    width: 35%;
+    width: 30%;
     height: 100vh;
 }
 .logo-login{
     margin:20% 2% 10% 10%;
 }
-.login-form2{
+.login-form3{
     margin: 10% 10% 30% 25%;
 }
 
-.login-form2 .login-username-input .input-username{
+.login-form3 .login-username-input .input-username{
     border-radius: 8px;
-    margin-top: 5px;
-    margin-left: -36%;
+    margin-top: 10px;
+    margin-left: 0%;
     border: solid rgb(179, 9, 9) 1px;
     padding: 10px 100px 10px 10px;
+
 }
 
-.login-form2 .login-password-input .input-password{
+.login-form3 .login-password-input .input-password{
     border-radius: 8px;
     margin-top: 5px;
     border: solid rgb(179, 9, 9) 1px;
     padding: 10px 100px 10px 10px;
-    margin-left: -36%;
+    margin-left: 0%;
 }
-.login-form .login-password-input .eye-icon{
+.login-form3 .login-password-input .eye-icon{
     float: right;
     margin-right: 202px;
     margin-top: 200px;
     position: relative;
     color: #fdfdff;
 }
-.login-form2 .login-button .login-button-signin1{
+.login-form3 .login-button .login-button-title{
     background-color: #FF9138;
     border-radius: 6px;
     padding: 8px 50px 10px 50px;
@@ -49,27 +50,27 @@
     line-height:110%;
     vertical-align: top;
     text-align: center;
-    margin-left: -30%;
-    margin-top: 0%;
+    margin-left: 7%;
+
+    margin-top: -60%;
 
 }
-.login-password-title2{
-    margin-left: -94%;
+.login-password-title{
+    margin-left: -40%;
 }
-.login-username-title2{
-    margin-left: -84%;
+.login-username-title{
+    margin-left: -55%;
 }
-.login-form2 .login-forgot-password {
+.login-form3 .login-forgot-password {
     font-size: 20px;
     line-height: 200%;
     line-height: 100%;
     vertical-align: left;
     color: #E73F3F;
-    margin-left: -120px;
 }
-.login-form2 .login-button-signin1{
+.login-button-signin{
     margin-left:50px;
-    left: 10%;
+    left: 20%;
 }
 .forgot-password-title{
     margin-left: -5%;
@@ -114,8 +115,8 @@
 .right-title-background {
     margin: -500px
 }
-.login-form2 .fall_login {
-    margin-left: -170px;
+.fall_login {
+    margin-left: -50px;
     font-size: 15px;
     color: red;
 }

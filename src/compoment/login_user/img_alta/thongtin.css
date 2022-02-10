@@ -1,0 +1,180 @@
+.total-container{
+    background-color: #D4D4D7;
+    height: 100vh;
+    width: 100%;
+}
+
+.container .left-container{
+    background-color:white;
+    width: 15%;
+    height: 100vh;
+    float: left;
+}
+
+.container .left-container .logo-login img{
+    width: 40%;
+    height: 8%;
+    margin: 4% 30% 0px 30%;
+
+}
+.container .left-container ul{
+    padding: 54px 24px 0 24px;
+    background-color: white;
+}
+.container .left-container ul li{
+    list-style: none;
+    height: 48px;
+    
+}
+.container .left-container ul li img{
+    filter: invert(0.2);
+    height: 14px;
+}
+.container .left-container ul li div{
+    list-style: none;
+    padding: 12px 0px 12px 0px;
+    font-size: 16px;
+    color:#7E7D88;
+    line-height: 24px;
+    line-height: 110%;
+}
+.container .left-container ul li div a{
+    margin-left: 8px;
+}
+.container .left-container ul li span{
+    color:#A9A9B0;
+    padding: 3px 0;
+    float: right;
+    width: 1px;
+}
+.container .left-container ul li .logout-button{
+    position: absolute;
+    padding: 12px 70px 12px 15px;
+    bottom: 0;
+    background-color: #FFF2E7;
+    border-radius: 8px;
+    size: 16px;
+    line-height: 24px;
+    line-height: 1000%;
+    color: #FF7506;
+    margin: 10px 0px -90px 40px;
+}
+
+.container .right-container{
+    width: 85%;
+    height: 100vh;
+    float: right;
+}
+.container .right-container .top-content{
+    background-color: cornsilk;
+    margin: 2.5% 0 0 2%;
+}
+.container .right-container .top-content .left-title{
+    float: left;
+}
+.container .right-container .top-content .left-title p{
+    font: bold;
+    size: 2.5%;
+    line-height: 30px;
+    line-height: 300%;
+    margin: 0%;
+    color: #FF9138;
+    
+    white-space: nowrap;
+    font-style: bold;
+    
+}
+.container .right-container .top-content .right-title{
+    float: right;
+    width: 24%;
+    margin: -12px 0;
+    padding:12px 0;
+}
+.container .right-container .top-content .right-title .alarm-button div p{
+    padding: 6px;
+    background-color: #FFF2E7;
+    color:#FFAC6A;
+    border-radius: 32px;
+    margin: 6px 0 0 0;
+}
+.container .right-container .top-content .right-title .user-account div{
+    padding: 0px 0px 0px 24px ;
+    display: flex;
+}
+.container .right-container .top-content .right-title div div{
+    float: left;
+}
+.container .right-container .top-content .right-title .user-account div p{
+    margin: 0;
+}
+.container .right-container .middle-content{
+    background-color: white;
+    border-radius: 6px;
+    margin: 10% 15% 30% 2%;
+    padding: 5% 2% 5% 2%;
+    display: flex;
+    position: relative;
+}
+.container .right-container .middle-content .left-title,.middle-title,.right-title{
+    margin: 2%;
+    width: 432px;
+}
+.container .right-container .middle-content .left-title{
+    text-align: center;
+}
+
+.container .right-container .middle-content .left-title .top-img .logo-camera{
+    border: solid 1 px;
+    padding: 11px;
+    background-color: #FF7506;
+    border-radius:20px ;
+    top: 240px;
+    left: 210px;
+    position: absolute;
+    border: 2px solid white;
+    color: white;
+}
+.container .right-container .middle-content .left-title .bottom-username{
+    font-size: 24px;
+    line-height: 100px;
+    line-height: 210%;
+    color: #282739;
+}
+
+.container .right-container .middle-content div div div input{
+    width: 100%;
+    height: 40px;
+    background-color: #EAEAEC;
+    border: none;
+    border-radius: 9px;
+    padding-left: 1px;
+}
+.container .right-container .middle-content div div div p{
+    border: none;
+    border-radius: 6px;
+}
+.container .right-container .middle-content .middle-title p{
+    border: none;
+    border-radius: 20px;
+}
+.middle-title{
+    margin: 20px;
+}
+.name-title {
+    margin-left: -75%;
+}
+.phone-title{
+    margin-left: -80%;
+}
+.email-title{
+    margin-left: -91%;
+}
+.username-title{
+    margin-left: -75%;
+}
+.password-title{
+    margin-left: -81%;
+}
+.role-title{
+    margin-left: -90%;
+}
